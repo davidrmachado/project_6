@@ -10,3 +10,8 @@
   color: white;
   text-align: center;
 }
+
+.planeta {
+  display: inline;
+  width: auto;
+}
