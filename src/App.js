@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
-import './App.css';
+import Missions from './components/Missions';
+// import './App.css';
 
 class App extends React.Component {
   render() {
@@ -9,6 +10,7 @@ class App extends React.Component {
       <>
         <Header />
         <SolarSystem />
+        <Missions />
       </>
     );
   }
